@@ -1,0 +1,142 @@
+html {
+    overflow-x: hidden;
+}
+
+
+/* header */
+
+.material-icons.icon-md {
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 35px;
+}
+
+.header {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    background-color: none;
+    width: 100vw;
+}
+
+.left_ic {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left_ic img {
+    position: relative;
+}
+
+.left_ic span {
+    display: flex;
+    align-items: center;
+    padding-right: 65px;
+}
+
+.left_ic a {
+    display: flex;
+    align-items: center;
+}
+
+.material-icons {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.linez {
+    display: flex;
+    border-left: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profpic {
+    display: flex;
+    padding-left: 40px;
+    width: 100vw;
+    justify-content: flex-end;
+}
+
+.profpic img {
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.profpic i {
+    align-items: center;
+    display: flex;
+}
+
+.line {
+    display: flex;
+    border: 1px solid gray;
+    width: 100vw;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+
+
+/* header */
+
+
+/* main */
+
+.main__container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.poke {
+    width: 30%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.poke img {
+    width: 20vw;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.poke img:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* main */
